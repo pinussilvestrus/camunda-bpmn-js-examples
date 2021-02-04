@@ -3,6 +3,12 @@ html, body {
   width: 100%;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  margin-top: 0;
+}
+
 .content {
   height: 100%;
   display: flex;
@@ -22,6 +28,7 @@ html, body {
   border-left: 1px solid #ccc;
   background: #f8f8f8;
   overflow: auto;
+  min-width: 240px;
 }
 
 .properties:empty {
@@ -30,5 +37,5 @@ html, body {
 
 .properties .djs-properties-panel {
   padding-bottom: 70px;
-  min-height:100%;
+  min-height: 100%;
 }
