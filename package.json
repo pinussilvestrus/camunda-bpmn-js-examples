@@ -17,7 +17,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "camunda-bpmn-js": "^0.1.0-alpha.0"
+    "camunda-bpmn-js": "^0.1.0"
   },
   "devDependencies": {
     "css-loader": "^5.0.1",
